@@ -1,6 +1,6 @@
 import React from "react";
 import coin from "../assets/coin.png";
-import "../styles/Modal.css"; // make sure to create this CSS file or add styles in your main CSS
+
 
 const Modal = ({ isVisible, onClose }) => {
   if (!isVisible) return null;
